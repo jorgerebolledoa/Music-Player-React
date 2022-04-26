@@ -96,12 +96,8 @@ function App() {
 									<i class="fas fa-arrow-circle-right"></i>
 								</button>
 							</div>
-							<audio
-								className=""
-								ref={(r) => (nombreRef = r)}
-								autoPlay
-								controls
-							/>
+							/* audio className="" ref={(r) => (nombreRef = r)}
+							autoPlay controls /> */
 						</div>
 					</div>
 				</div>
