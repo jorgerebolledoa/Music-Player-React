@@ -15,16 +15,14 @@ function App() {
 				console.log(error);
 			});
 	};
-	///
 	useEffect(() => {
 		getApi();
 	}, []);
-
-	const [songsActive, setsongsActive] = useState(null); //-
+	const [songsActive, setsongsActive] = useState(null);
 	let nombreRef = useRef(null);
 	const setSingleSong = (x, i) => {
 		nombreRef.src = `https://assets.breatheco.de/apis/sound/${x}`;
-		setsongsActive(i); //-
+		setsongsActive(i);
 	};
 	const fplay = () => {
 		if (nombreRef !== null) nombreRef.play();
@@ -51,7 +49,6 @@ function App() {
 		setSingleSong(state[position].url, position);
 		fplay();
 	};
-
 	return (
 		<div className="container mt-3">
 			<div className="row">

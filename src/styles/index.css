@@ -1,17 +1,13 @@
 .App {
     text-align: center;
-    border: 1px solid gray;
 }
 
 body {
     background-color: #282c34;
-    
 
-    color: white;
 }
 i{
-    font-size: 20px;
-    padding: auto;
+    font-size: 20px;    
 }
 
 
