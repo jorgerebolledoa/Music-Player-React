@@ -56,14 +56,14 @@ function App() {
 		<div className="container mt-3">
 			<div className="row">
 				<div className="col-md-8 mx-auto text-center">
-					<ol className="rounded">
+					<ol className="rounded ">
 						{state.length > 0 &&
 							state.map((valor, j) => {
 								return (
 									<li
 										key={valor.id}
 										className={
-											"list-group-item list-group-item" +
+											" bg-secondary list-group-item list-group-item " +
 											(songsActive === j)
 										}
 										onClick={() =>
@@ -100,6 +100,7 @@ function App() {
 								</button>
 							</div>
 							<audio
+								className=""
 								ref={(r) => (nombreRef = r)}
 								autoPlay
 								controls
