@@ -56,7 +56,7 @@ function App() {
 		<div className="container mt-3">
 			<div className="row">
 				<div className="col-md-8 mx-auto text-center">
-					<ol>
+					<ol className="rounded">
 						{state.length > 0 &&
 							state.map((valor, j) => {
 								return (
@@ -78,18 +78,24 @@ function App() {
 						<div className="col-md-8 mx-auto text-center ">
 							<div className="mb-2">
 								<button
-									className="btn-sm "
+									className="btn-sm  rounded-circle p-2 m-0 bg-secondary border-0 m-1"
 									onClick={atras}
 									id="boton">
 									<i class="fas fa-arrow-circle-left"></i>
 								</button>
-								<button className="btn-sm" onClick={pause}>
+								<button
+									className="btn-sm rounded-circle p-2 m-0 bg-secondary border-0 m-1 "
+									onClick={pause}>
 									<i class="far fa-pause-circle"></i>
 								</button>
-								<button className="btn-sm" onClick={fplay}>
+								<button
+									className="btn-sm rounded-circle p-2 m-0 bg-secondary border-0 m-1"
+									onClick={fplay}>
 									<i class="far fa-play-circle"></i>
 								</button>
-								<button className="btn-sm" onClick={adelantar}>
+								<button
+									className="btn-sm rounded-circle p-2 m-0 bg-secondary border-0 m-1"
+									onClick={adelantar}>
 									<i class="fas fa-arrow-circle-right"></i>
 								</button>
 							</div>
