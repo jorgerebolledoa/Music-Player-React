@@ -1,12 +1,17 @@
+.App {
+    text-align: center;
+    border: 1px solid gray;
+}
 
-/* 
+body {
+    background-color: #282c34;
+    
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    color: white;
+}
+i{
+    font-size: 20px;
+    padding: auto;
+}
 
-*/
+
